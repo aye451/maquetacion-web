@@ -56,6 +56,9 @@ header{
     cursor: pointer; /*para que aparezca la manito cuando ponemos el mouse encima*/
     display: none;
 }
+button{
+    cursor: pointer
+}
 
 #menu-toggle{
     display: none; /*nunca quiero que se vea el checkbox*/
@@ -116,7 +119,7 @@ section{
     opacity: 0.6;
 }
 
-.hero-text a{
+.hero-text a, button {
     display: inline-block;
     background-color: #3a314e;
     border: 1px solid transparent;
