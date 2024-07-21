@@ -26,13 +26,8 @@
         <!-- LOGO -->
         <a href="#" class="logo">FAC</a>
         
-        <!-- Truco para que el botón sea clicleable sin usar JAVASCRIPT -->
-        <input type="checkbox" name="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="menu-icon-action">
-            <div class='bx bx-menu' id="menu-icon"></div>
-        </label>
-        
-
+        <div class='bx bx-menu' id="menu-icon"></div>
+       
         <ul class="navlist">
             <li><a href="#">Home</a></li>
             <li><a href="#">Sobre mí</a></li>
@@ -50,7 +45,8 @@
             <p>Interesada por el mundo de la tecnología y los datos.
                 Estoy abierta a nuevas oportunidades y conexiones en el ámbito del análisis de datos y más allá!
             </p>
-            <a href="#">CV</a>
+            <!-- <a href="#">CV</a> -->
+            <button onclick= "downloadCV()">CV</button>
             <a href="#" class="videos"><i class='bx bx-play'></i>Mira mis videos</a>
         </div>
         <div class="hero-img">
@@ -68,5 +64,8 @@
         <a href="#"><i class='bx bxs-down-arrow'></i></a>
     </div>
 
+    <!-- El script de ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
 </body>
 </html>
